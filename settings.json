@@ -1,0 +1,113 @@
+{
+  // 以像素为单位控制字号。
+  "editor.fontSize": 18,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.run": "onType",
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue",
+      ".html"
+    ]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "files.eol": "\n",
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  },
+  "files.associations": {
+    ".eslintrc": "json",
+    "*.wpy": "vue",
+    "*.wxss": "css",
+    "*.wxml": "html"
+  },
+  "git.enableSmartCommit": true,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.rendererType": "dom",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force" // 可以换成上面任意一种value
+    },
+    "prettier": {
+      "semi": false,
+      "singleQuote": true
+    }
+  },
+  "breadcrumbs.enabled": true,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "mohd-akram.vscode-html-format",
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#721c58",
+    "statusBar.noFolderBackground": "#721c58",
+    "statusBar.debuggingBackground": "#721c58"
+  },
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": true,
+  "eslint.nodePath": "",
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+}
